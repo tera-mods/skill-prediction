@@ -80,8 +80,8 @@ module.exports = {
 		2: true, // Knockdown Strike
 		3: true, // Whirlwind
 		4: true, // Evasive Roll
-        5: true, // Dash
-        6: true, // Backstab
+		5: true, // Dash
+		6: true, // Backstab
 		8: true, // Overhand Strike
 		9: true, // Leaping Strike
 		10: true, // Retaliate
@@ -197,8 +197,8 @@ module.exports = {
 		31: true, // Tenacity
 		32: true, // Find Weakness
 		33: true, // Chase
-        // Awakening
-        34: true, // Wind Walk
+		// Awakening
+		34: true, // Wind Walk
 		35: true, // Windsong
 		36: true, // Gust Arrow
 	},
@@ -329,8 +329,8 @@ module.exports = {
 	10: { // Brawler
 		"enabled": true,
 		1: true, // Punch (DISABLING REQUIRES EDITTING '/config/abnormalities.js')
-        2: true, // Counter (DISABLING REQUIRES EDITTING '/config/abnormalities.js')
-        3: true, // Divine Wrath
+		2: true, // Counter (DISABLING REQUIRES EDITTING '/config/abnormalities.js')
+		3: true, // Divine Wrath
 		4: true, // Ground Pound
 		5: true, // Bullrush
 		6: true, // Haymaker
@@ -340,8 +340,8 @@ module.exports = {
 		10: true, // Counterpunch
 		12: true, // Retaliate
 		13: true, // Provoke
-        14: true, // Infuriate
-        15: true, // High Kick
+		14: true, // Infuriate
+		15: true, // High Kick
 		16: true, // Flip Kick
 		18: true, // Growing Fury
 		19: true, // Invigorating Rage
