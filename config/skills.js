@@ -3506,7 +3506,10 @@ module.exports = {
 		},
 		8: { // Fire Avalanche
 			'*': {
-				abnormals: { 32033: { speed: 1.2 } },
+				abnormals: {
+					32033: { speed: 1.2 },
+					32058: { speed: 1.3 }
+				},
 				hasChains: true,
 				noRetry: true
 			},
