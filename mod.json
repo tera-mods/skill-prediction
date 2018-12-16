@@ -1,7 +1,8 @@
 {
-	"name": "Skill Prediction",
-	"author": "Pinkie Pie",
-	"namespace": "skill_prediction",
+	"name": "skill-prediction",
 	"main": "lib",
-	"update": "github:tera-mods/skill-prediction"
+	"update": "github:tera-mods/skill-prediction",
+	"title": "Skill Prediction",
+	"author": "Pinkie Pie",
+	"description": "Simulates skills client-side, eliminating ping-based delays and animation lock."
 }
