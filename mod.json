@@ -1,7 +1,11 @@
 {
-	"name": "Skill Prediction",
-	"author": "Pinkie Pie",
-	"namespace": "skill_prediction",
+	"name": "skill-prediction",
 	"main": "lib",
-	"update": "github:tera-mods/skill-prediction"
+	"conflicts": ["aa-zsync", "cooldowns", "cooldowns-master", "fastfire", "fastfire-master", "fast-fire", "fast-fire-master",
+		"lockons", "lockons-master", "lockons-light", "lockons-light-master", "ping-compensation", "ping-remover",
+		"skill-prediction-master", "skill-prediction-plus"],
+	"update": "github:tera-mods/skill-prediction",
+	"title": "Skill Prediction",
+	"author": "Pinkie Pie",
+	"description": "Simulates skills client-side, eliminating ping-based delays and animation lock."
 }
