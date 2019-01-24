@@ -1177,7 +1177,7 @@ module.exports = {
 			0: {
 				moveDir: 1,
 				forceClip: true,
-				stamina: 180,
+				stamina: 150,
 				instantStamina: true,
 				noInterrupt: [6],
 				noRetry: true
@@ -3636,12 +3636,6 @@ module.exports = {
 			30: true
 		},
 		4: { // Charge
-			0: {
-				fixedSpeed: true,
-				length: 550,
-				distance: 436,
-				noInterrupt: ['4-0']
-			},
 			10: true,
 			11: { noInterrupt: [1, 2, 3, '4-11', 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 23, 24, 25] }
 		},
