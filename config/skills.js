@@ -479,6 +479,34 @@ module.exports = {
 			2: true,
 			3: true
 		},
+		2: { // Knockdown Strike
+			'*': {
+				noInterrupt: [1, 2, 3, 4, 6, 8, 10, 12, 13, 15, 16, 17, 24, 25],
+				abnormals: {
+					23070: { speed: 1.25 }
+				}
+			},
+			1: true,
+			2: {
+				categoryChains: {
+					3014: 30,
+					3027: 30
+				}
+			},
+			30: true
+		},
+		3: { // Whirlwind
+			'*': {
+				noInterrupt: [1, 2, 3, 4, 6, 8, 10, 12, 13, 14, 15, 16, 17, 24, 25],
+				abnormals: {
+					23080: { speed: 1.25 }
+				}
+			},
+			0: true,
+			1: true,
+			2: { categoryChains: { 3027: 30 } },
+			30: true
+		},
 		4: { // Evasive Roll
 			'*': {
 				forceClip: true,
@@ -496,11 +524,44 @@ module.exports = {
 				onlyTarget: true
 			}
 		},
+		8: { // Overhand Strike
+			'*': { hasChains: true },
+			0: {
+				noInterrupt: ['1-0', '1-1', '1-2', 4, 6, 8, 10, '14-0', '14-1', 17, 25],
+				chains: {
+					1: 30,
+					2: 30,
+					3: 30,
+					9: 30,
+					12: 30,
+					13: 30,
+					14: 30,
+					15: 30,
+					16: 30,
+					24: 30,
+					27: 30 // Workaround - TODO: Emulate abnormal 301604
+				}
+			},
+			30: true
+		},
 		9: { // Leaping Strike
 			0: true
 		},
 		10: { // Retaliate
 			0: { noRetry: true }
+		},
+		12: { // Heart Thrust
+			'*': {
+				noInterrupt: [1, 2, 3, 4, 6, 8, 10, 12, 13, 14, 15, 16, 17, 24, 25],
+				abnormals: {
+					23060: { speed: 1.25 },
+					23061: { speed: 1.35 }
+				}
+			},
+			0: true,
+			1: true,
+			2: { categoryChains: { 3027: 30 } },
+			30: true
 		},
 		13: { // Stunning Backhand
 			0: true
