@@ -1341,10 +1341,10 @@ module.exports = {
 			},
 			0: {
 				inPlace: {
-					movement: [{
+					animSeq: [{
 						duration: 766,
-						speed: 1,
-						unk: 1,
+						xyRate: 1,
+						zRate: 1,
 						distance: 0
 					}],
 					distance: 0
@@ -1863,16 +1863,16 @@ module.exports = {
 			'*': {
 				noInterrupt: [3, 4, 12, 20],
 				inPlace: {
-					movement: [{
+					animSeq: [{
 						duration: 766,
-						speed: 1,
-						unk: 1,
+						xyRate: 1,
+						zRate: 1,
 						distance: 0
 					},
 					{
 						duration: 346,
-						speed: 1,
-						unk: 1,
+						xyRate: 1,
+						zRate: 1,
 						distance: 0
 					}],
 					distance: 0
@@ -1886,16 +1886,16 @@ module.exports = {
 			1: { triggerAbnormal: { 10151020: 2000 } },
 			2: {
 				inPlace: {
-					movement: [{
+					animSeq: [{
 						duration: 950,
-						speed: 1,
-						unk: 1,
+						xyRate: 1,
+						zRate: 1,
 						distance: 0
 					},
 					{
 						duration: 346,
-						speed: 1,
-						unk: 1,
+						xyRate: 1,
+						zRate: 1,
 						distance: 0
 					}],
 					distance: 0
@@ -1904,16 +1904,16 @@ module.exports = {
 			},
 			3: {
 				inPlace: {
-					movement: [{
+					animSeq: [{
 						duration: 616,
-						speed: 1,
-						unk: 1,
+						xyRate: 1,
+						zRate: 1,
 						distance: 0
 					},
 					{
 						duration: 346,
-						speed: 1,
-						unk: 1,
+						xyRate: 1,
+						zRate: 1,
 						distance: 0
 					}],
 					distance: 0
@@ -1922,16 +1922,16 @@ module.exports = {
 			},
 			4: {
 				inPlace: {
-					movement: [{
+					animSeq: [{
 						duration: 1150,
-						speed: 1,
-						unk: 1,
+						xyRate: 1,
+						zRate: 1,
 						distance: 0
 					},
 					{
 						duration: 346,
-						speed: 1,
-						unk: 1,
+						xyRate: 1,
+						zRate: 1,
 						distance: 0
 					}],
 					distance: 0
@@ -1940,10 +1940,10 @@ module.exports = {
 			},
 			5: {
 				inPlace: {
-					movement: [{
+					animSeq: [{
 						duration: 2016,
-						speed: 1,
-						unk: 1,
+						xyRate: 1,
+						zRate: 1,
 						distance: 0
 					}],
 					distance: 0
@@ -1954,10 +1954,10 @@ module.exports = {
 			'*': {
 				noInterrupt: ['1-0', '1-2', 3, 4, 12, 19, 20],
 				inPlace: {
-					movement: [{
+					animSeq: [{
 						duration: 2140,
-						speed: 1,
-						unk: 1,
+						xyRate: 1,
+						zRate: 1,
 						distance: 0
 					}],
 					distance: 0
@@ -2010,12 +2010,12 @@ module.exports = {
 					12: 30
 				},
 				inPlace: {
-					movement: [
+					animSeq: [
 						[],
 						[{
 							duration: 1757,
-							speed: 1,
-							unk: 1,
+							xyRate: 1,
+							zRate: 1,
 							distance: 0
 						}],
 						[]
@@ -2026,11 +2026,11 @@ module.exports = {
 			30: {
 				connectSkillArrow: true,
 				inPlace: {
-					movement: [
+					animSeq: [
 						[{
 							duration: 1757,
-							speed: 1,
-							unk: 1,
+							xyRate: 1,
+							zRate: 1,
 							distance: 0
 						}],
 						[]
@@ -2041,11 +2041,11 @@ module.exports = {
 			},
 			31: {
 				inPlace: {
-					movement: [
+					animSeq: [
 						[{
 							duration: 1757,
-							speed: 1,
-							unk: 1,
+							xyRate: 1,
+							zRate: 1,
 							distance: 0
 						}],
 						[]
@@ -2067,12 +2067,12 @@ module.exports = {
 					12: 60
 				},
 				inPlace: {
-					movement: [
+					animSeq: [
 						[],
 						[{
 							duration: 1757,
-							speed: 1,
-							unk: 1,
+							xyRate: 1,
+							zRate: 1,
 							distance: 0
 						}],
 						[]
@@ -2083,11 +2083,11 @@ module.exports = {
 			60: {
 				connectSkillArrow: true,
 				inPlace: {
-					movement: [
+					animSeq: [
 						[{
 							duration: 1757,
-							speed: 1,
-							unk: 1,
+							xyRate: 1,
+							zRate: 1,
 							distance: 0
 						}],
 						[]
@@ -2098,11 +2098,11 @@ module.exports = {
 			},
 			61: {
 				inPlace: {
-					movement: [
+					animSeq: [
 						[{
 							duration: 1757,
-							speed: 1,
-							unk: 1,
+							xyRate: 1,
+							zRate: 1,
 							distance: 0
 						}],
 						[]
@@ -2114,17 +2114,17 @@ module.exports = {
 		5: { // Grim Strike
 			'*': {
 				inPlace: {
-					movement: [
+					animSeq: [
 						[{
 							duration: 2416,
-							speed: 1,
-							unk: 1,
+							xyRate: 1,
+							zRate: 1,
 							distance: 0
 						}],
 						[{
 							duration: 1065,
-							speed: 1,
-							unk: 1,
+							xyRate: 1,
+							zRate: 1,
 							distance: 0
 						}]
 					],
@@ -2222,10 +2222,10 @@ module.exports = {
 				noInterrupt: [19],
 				distance: 168,
 				inPlace: {
-					movement: [{
+					animSeq: [{
 						duration: 1832,
-						speed: 1,
-						unk: 1,
+						xyRate: 1,
+						zRate: 1,
 						distance: 0
 					}],
 					distance: 0
@@ -2300,10 +2300,10 @@ module.exports = {
 		19: { // Dark Harvest
 			'*': {
 				inPlace: {
-					movement: [{
+					animSeq: [{
 						duration: 2122,
-						speed: 1,
-						unk: 1,
+						xyRate: 1,
+						zRate: 1,
 						distance: 0
 					}],
 					distance: 0
@@ -2398,23 +2398,23 @@ module.exports = {
 				noInterrupt: [3, 20],
 				glyphs: {
 					30007: {
-						movement: [
+						animSeq: [
 							{
 								duration: 394,
-								speed: 1,
-								unk: 1,
+								xyRate: 1,
+								zRate: 1,
 								distance: 0
 							},
 							{
 								duration: 111,
-								speed: 1,
-								unk: 1,
+								xyRate: 1,
+								zRate: 1,
 								distance: 0
 							},
 							{
 								duration: 1333,
-								speed: 1.8,
-								unk: 1,
+								xyRate: 1.8,
+								zRate: 1,
 								distance: 64.8
 							}
 						],
