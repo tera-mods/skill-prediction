@@ -1635,7 +1635,7 @@ module.exports = {
 		},
 		8: { // Metamorphic Blast
 			0: {
-				noInterrupt: [1, 2, 6, 17],
+				noInterrupt: [1, 2, '5-10', 6, '9-10', 17],
 				checkReset: true,
 				chains: {
 					8: 30,
@@ -1729,7 +1729,7 @@ module.exports = {
 		},
 		23: { // Metmorphic Smite
 			0: {
-				noInterrupt: [1, 2, 6, 17, 23],
+				noInterrupt: [1, 2, '5-10', 6, '9-10', 17, 23],
 				chains: { 8: 30 }
 			},
 			30: true
