@@ -1704,6 +1704,7 @@ module.exports = {
 			}
 		},
 		18: { // Arun's Vitae
+			'*': { noRetry: true },
 			0: {
 				chargeLevels: [10, 10],
 				autoRelease: 0,
@@ -1712,12 +1713,13 @@ module.exports = {
 					27080: { chargeSpeed: 0.25 }
 				}
 			},
-			10: { noRetry: true }
+			10: true
 		},
 		21: { // Retaliate
 			0: { noRetry: true }
 		},
 		22: { // Arun's Tears
+			'*': { noRetry: true },
 			0: {
 				chargeLevels: [10, 10],
 				autoRelease: 0,
@@ -1725,7 +1727,7 @@ module.exports = {
 					27100: { chargeSpeed: 0.25 }
 				}
 			},
-			10: { noRetry: true }
+			10: true
 		},
 		23: { // Metmorphic Smite
 			0: {
