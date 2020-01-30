@@ -22,6 +22,21 @@ Simulates skills client-side, eliminating ping-based delays and animation lock.
 }
 ```
 
+#### Excessive Ghosting / Other Skill Ping Handlers compatability :
+* Edit `config/skills_config.js` and change class or skill to `false` to disable skill prediction for it:
+* The following edits disable warrior skills prediction
+```
+0: { // Warrior
+		"enabled": false,
+```
+* The following edit disables warrior skill "Evasive Roll" prediction
+```
+0: { // Warrior
+		"enabled": true,
+		1: true, // Combo Attack
+		2: false, // Evasive Roll
+```
+
 ## Developers
 ### config/skills.js
 This file contains skill data specific to skill-prediction. The basic structure is as follows:
