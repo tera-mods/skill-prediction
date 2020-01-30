@@ -289,14 +289,17 @@ module.exports = {
 			2: true
 		},
 		2: { // Stand Fast
-			0: {
+			'*': {
 				fixedSpeed: true,
 				stamina: 50,
 				level: {
 					1: { stamina: 40 }
 				},
 				noRetry: true
-			}
+			},
+			0: true,
+			30: true,
+			40: true
 		},
 		3: { // Onslaught
 			'*': {
@@ -392,7 +395,9 @@ module.exports = {
 			0: { fixedSpeed: true }
 		},
 		17: { // Adrenaline Rush
-			0: { fixedSpeed: true }
+			'*': { fixedSpeed: true },
+			0: true,
+			40: true
 		},
 		18: { // Shield Barrage
 			0: {
