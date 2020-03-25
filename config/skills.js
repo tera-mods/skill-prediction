@@ -2012,7 +2012,7 @@ module.exports = {
 		},
 		4: { // Sundering Strike
 			'*': {
-				noInterrupt: [1, 4, 8, 9, 10, 11, '12-0', '12-1', 20],
+				noInterrupt: [1, 4, 8, 9, 10, 11, '12-0', '12-1'],
 				noRetry: true
 			},
 			0: {
