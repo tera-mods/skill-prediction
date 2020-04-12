@@ -3307,7 +3307,19 @@ module.exports = {
 			1: { categoryChains: { 800: 30 } },
 			2: { categoryChains: { 800: 30 } },
 			30: true,
-			31: true
+			31: true,
+			41: { categoryChains: { 800: 46 } },
+			42: { categoryChains: { 800: 46 } },
+			46: true,
+			47: true,
+			51: { categoryChains: { 800: 56 } },
+			52: { categoryChains: { 800: 56 } },
+			56: true,
+			57: true,
+			61: { categoryChains: { 800: 66 } },
+			62: { categoryChains: { 800: 66 } },
+			66: true,
+			67: true
 		},
 		7: { // Roundhouse Kick
 			'*': {
