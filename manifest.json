@@ -19,5 +19,7 @@
 		"LICENSE": "WJ7YI+moTFb+uVrFjnzzhGJrnL9P2iqQe8NuED3hutI=",
 		"mod.json": "7e/zJ+s943HpTyOs2Ct2xVEDEbI4/wuDFpAXgelZ3es=",
 		"README.md": "lKk32pa79Kmi64wHFW6TTBebhlRkZLke5toU7tjZq3I="
-	}
+	},
+	"publicKey": "MCowBQYDK2VwAyEAY31fpV8rIvZ3zGJE6nqoLXcI27/C3xmjDWV7PDavK4w=",
+	"signature": "d3/yWPVTdhSX7KwJpODzuk5FA5V9wcL2ZqJ1NxRXh6AaZopd/35Nr445ZwqFqAVXXlWAIGvA2EemZVdGobnMCA=="
 }
