@@ -757,6 +757,9 @@ module.exports = {
 			30: true
 		},
 		10: { // Cyclone
+			'*': {
+				abnormals: { 401421: { disableSkill: true } }
+			},
 			0: {
 				overcharge: 365,
 				noChargeAbnormalityId: 401701,
@@ -764,7 +767,7 @@ module.exports = {
 					24190: { chargeSpeed: 0.3 },
 					400500: { chargeSpeed: 0.2 },
 					400501: { chargeSpeed: 0.4 },
-					400508: { chargeSpeed: 0.4 },					
+					400508: { chargeSpeed: 0.4 },
 					401150: { chargeSpeed: 0.2 }
 				},
 				noRetry: true
@@ -919,6 +922,7 @@ module.exports = {
 			1: true
 		},
 		32: { // Punishing Strike
+			'*': { requiredBuff: 401417 },
 			0: true,
 			1: true
 		},
