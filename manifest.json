@@ -10,7 +10,7 @@
 		"lib/abnormalities.js": "PmTXVe8uKuizqwNQNmA6w9/sENyjMnts51oZT1taNjA=",
 		"lib/commands.js": "ycSSl8PhSGMY4/k0gXAsuDSoKXZ3cmmbPVBwHbLC6RE=",
 		"lib/cooldowns.js": "HbW6um+GX33UC0pClC18Sbcc6Uiw57uU2ftrAj8JUFQ=",
-		"lib/core.js": "wzSO+vWuHeYUjV5tHNuEoT9RTrilSbMnSk6fDq3llug=",
+		"lib/core.js": "Grvjs3XAmuq4SjQiY9QLT28A7OhGZAba2KAUSCsIeCc=",
 		"lib/debug.js": "hpB/TneaJGNT9dR1aD0rNeKAYcroMbOAzGYkbtqmZbs=",
 		"lib/index.js": "HXCSz9opRU53Yb7TSlxQBm0scCuIwDo7o1YLfGEVINY=",
 		"lib/ping.js": "yRvxmr2oUvL8J1bS6xxl4xzVfBaq23ApoEDYnDJDr10=",
@@ -21,5 +21,5 @@
 		"README.md": "lKk32pa79Kmi64wHFW6TTBebhlRkZLke5toU7tjZq3I="
 	},
 	"publicKey": "MCowBQYDK2VwAyEAY31fpV8rIvZ3zGJE6nqoLXcI27/C3xmjDWV7PDavK4w=",
-	"signature": "IXXxhY4dZn7GyDHvKev/ULLqro2dl/ra2x0K/96jjydH4N5UEt3AYDhnQ4ZyAlToAr4WSTSaQvqUQxWrZ16uDA=="
+	"signature": "M6UIGXpgzgYFm5Yf/9O+XU/Y1IOonQLT1A48xwmma8366cnCX3GnHt1YM+0mqDakGH1DlM0/wRWKoJ3xBxVdBw=="
 }
