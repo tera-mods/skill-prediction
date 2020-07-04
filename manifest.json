@@ -1,16 +1,16 @@
 {
 	"data": {
+		"client_data/abnormality.json": "5uFez/+ZqYSPUaRWEpM/c6Z+yQjr5bD30lI4Fw9O+ow=",
+		"client_data/ep.json": "yFO8eyZy2UE0JDJpszSYO6RKKIzsJIZTeW1pvyhTV0g=",
+		"client_data/passivity.json": "cdFOBzkf3BRvvngi2KcQSXz0p5WfHifrymNEk/R41ec=",
+		"client_data/polishing.json": "DJbhNVNbHua8wEQH2Bz1BVLOLsoj6+7qMf/lUxd2CY4=",
+		"client_data/skills.json": "4Jo5KqltzQbvtBUxTYUo2iwYw591chRxclIx2F6i8jU=",
 		"config/abnormalities.js": "gPZkW0c7WteSBOhMtE/w7PlYsiJfytmZtGGpNWm6Srk=",
-		"config/ep.json": "yFO8eyZy2UE0JDJpszSYO6RKKIzsJIZTeW1pvyhTV0g=",
-		"config/passivity.json": "ZjLLjFV2I+jzMksmccPYdXLQ/lnXP7MOEZn25JP4RSE=",
-		"config/polishing.json": "DJbhNVNbHua8wEQH2Bz1BVLOLsoj6+7qMf/lUxd2CY4=",
-		"config/silence.json": "T1PNoYwrqgwDVLtfmj7L5e0Sq02OEbqHPC8RFhICuUU=",
-		"config/skills.js": "CWFQz+EkCxa5P/aqUL76MZtvrTD7wOIsaoFY56VnaNQ=",
-		"config/skills_client.json": "mm7HmutEuAoj7aZNXErmVUdEv8tgq/RteWQ9PKbI5EM=",
+		"config/skills.js": "3BUDeaFpkjYb2ydFlPlVoGgaUc1Glaou+pA50eTLo6k=",
 		"lib/abnormalities.js": "PmTXVe8uKuizqwNQNmA6w9/sENyjMnts51oZT1taNjA=",
 		"lib/commands.js": "ycSSl8PhSGMY4/k0gXAsuDSoKXZ3cmmbPVBwHbLC6RE=",
 		"lib/cooldowns.js": "HbW6um+GX33UC0pClC18Sbcc6Uiw57uU2ftrAj8JUFQ=",
-		"lib/core.js": "tEFfqYGB/EuJws7JMQZMUjCX9Wj618mi9fK+RwZD3DY=",
+		"lib/core.js": "vCdKkJLziTPdMIxB9KssrUqTHJwTgQf9uY8Cj2fjQB0=",
 		"lib/debug.js": "hpB/TneaJGNT9dR1aD0rNeKAYcroMbOAzGYkbtqmZbs=",
 		"lib/index.js": "HXCSz9opRU53Yb7TSlxQBm0scCuIwDo7o1YLfGEVINY=",
 		"lib/ping.js": "yRvxmr2oUvL8J1bS6xxl4xzVfBaq23ApoEDYnDJDr10=",
@@ -21,5 +21,5 @@
 		"README.md": "/dCVfy/RNNOX/TWoy3wCmTwdvcblBRV5bhRdvip2eRE="
 	},
 	"publicKey": "MCowBQYDK2VwAyEAY31fpV8rIvZ3zGJE6nqoLXcI27/C3xmjDWV7PDavK4w=",
-	"signature": "Od9vAggVjExsLnLccYyUxVlkWNkR9y1PMXQ4lrXXOhV1q/toPuSYap1McitoOunb0nNaby31L4vtzGGuCP47DQ=="
+	"signature": "0Qi19Ow/LC6/jyylk0QUsYg1omGkvEoToKZIPt7T1oBBbjqdCWD87Vqc9JATfUR9R5aI4OG8k10iqyK3Qsy8DQ=="
 }

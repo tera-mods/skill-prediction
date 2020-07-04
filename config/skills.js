@@ -50,10 +50,7 @@ module.exports = {
 			0: true
 		},
 		8: { // Assault Stance
-			0: {
-				stamina: 1000,
-				abnormals: { 102500: { disableSkill: true } }
-			},
+			0: { stamina: 1000 },
 			50: true
 		},
 		9: { // Defensive Stance
@@ -234,7 +231,6 @@ module.exports = {
 		40: { // Blade Waltz
 			'*': {
 				noInterrupt: ['41-0', '41-30', 42],
-				abnormals: { 104101: { disableSkill: true } },
 				hasChains: true,
 				longRetry: true
 			},
@@ -757,9 +753,6 @@ module.exports = {
 			30: true
 		},
 		10: { // Cyclone
-			'*': {
-				abnormals: { 401421: { disableSkill: true } }
-			},
 			0: {
 				overcharge: 365,
 				noChargeAbnormalityId: 401701,
@@ -804,9 +797,7 @@ module.exports = {
 		16: { // Fearsome Shout / Titanic Shout
 			0: { ignoreAttackSpeed: true },
 			10: { ignoreAttackSpeed: true },
-			20: {
-				abnormals: { 400616: { disableSkill: true } }
-			}
+			20: true
 		},
 		18: { // Lethal Strike
 			0: {
@@ -3866,7 +3857,6 @@ module.exports = {
 		},
 		23: { // Gungir's Bite
 			'*': {
-				abnormals: { 10155531: { disableSkill: true } },
 				hasChains: true,
 				noRetry: true
 			},
@@ -3879,7 +3869,6 @@ module.exports = {
 		},
 		24: { // Twilight Waltz
 			'*': {
-				abnormals: { 10155543: { disableSkill: true } },
 				hasChains: true,
 				noRetry: true
 			},
@@ -3894,7 +3883,6 @@ module.exports = {
 		},
 		25: { // Godsfall
 			'*': {
-				abnormals: { 10155511: { disableSkill: true } },
 				hasChains: true,
 				noRetry: true
 			},
