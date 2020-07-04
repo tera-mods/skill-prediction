@@ -804,7 +804,9 @@ module.exports = {
 		16: { // Fearsome Shout / Titanic Shout
 			0: { fixedSpeed: true },
 			10: { fixedSpeed: true },
-			20: true
+			20: {
+				abnormals: { 400616: { disableSkill: true } }
+			}
 		},
 		18: { // Lethal Strike
 			0: {

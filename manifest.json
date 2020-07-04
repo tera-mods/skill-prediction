@@ -5,7 +5,7 @@
 		"config/passivity.json": "ZjLLjFV2I+jzMksmccPYdXLQ/lnXP7MOEZn25JP4RSE=",
 		"config/polishing.json": "DJbhNVNbHua8wEQH2Bz1BVLOLsoj6+7qMf/lUxd2CY4=",
 		"config/silence.json": "T1PNoYwrqgwDVLtfmj7L5e0Sq02OEbqHPC8RFhICuUU=",
-		"config/skills.js": "oW6IlVpjUZBVvXHgwLojD5cBDCSDoZSYbewJ+YUJ93I=",
+		"config/skills.js": "M+WcICFcA9Z6GCjGJ2J1rBds9sS0bqZPb4FV5sIhhL8=",
 		"config/skills_client.json": "mm7HmutEuAoj7aZNXErmVUdEv8tgq/RteWQ9PKbI5EM=",
 		"lib/abnormalities.js": "PmTXVe8uKuizqwNQNmA6w9/sENyjMnts51oZT1taNjA=",
 		"lib/commands.js": "ycSSl8PhSGMY4/k0gXAsuDSoKXZ3cmmbPVBwHbLC6RE=",
@@ -21,5 +21,5 @@
 		"README.md": "lKk32pa79Kmi64wHFW6TTBebhlRkZLke5toU7tjZq3I="
 	},
 	"publicKey": "MCowBQYDK2VwAyEAY31fpV8rIvZ3zGJE6nqoLXcI27/C3xmjDWV7PDavK4w=",
-	"signature": "M6UIGXpgzgYFm5Yf/9O+XU/Y1IOonQLT1A48xwmma8366cnCX3GnHt1YM+0mqDakGH1DlM0/wRWKoJ3xBxVdBw=="
+	"signature": "+EVp3qUbdgLstnntk9fZPt656BAwz8hyPzLv//PwoiyhEqPCpH38YDPZciqE2R27kaW1f/nWxtImuI58HdaBDw=="
 }
