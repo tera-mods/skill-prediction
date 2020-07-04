@@ -299,10 +299,7 @@ module.exports = {
 		},
 		3: { // Onslaught
 			'*': {
-				noInterrupt: [2, 3, 4, 9, 8, 10, 13, 15, 21, 23, 24, 25, 26],
-				abnormals: {
-					22060: { speed: 1.25 }
-				}
+				noInterrupt: [2, 3, 4, 9, 8, 10, 13, 15, 21, 23, 24, 25, 26]
 			},
 			0: {
 				chains: {
@@ -396,11 +393,7 @@ module.exports = {
 			40: true
 		},
 		18: { // Shield Barrage
-			0: {
-				abnormals: {
-					201550: { speed: 1.2 }
-				}
-			},
+			0: true,
 			1: true
 		},
 		19: { // Pledge of Protection
@@ -482,10 +475,7 @@ module.exports = {
 		},
 		2: { // Knockdown Strike
 			'*': {
-				noInterrupt: [1, 2, 3, 4, 6, 8, 10, 12, 13, 15, 16, 17, 24, 25],
-				abnormals: {
-					23070: { speed: 1.25 }
-				}
+				noInterrupt: [1, 2, 3, 4, 6, 8, 10, 12, 13, 15, 16, 17, 24, 25]
 			},
 			1: true,
 			2: {
@@ -498,10 +488,7 @@ module.exports = {
 		},
 		3: { // Whirlwind
 			'*': {
-				noInterrupt: [1, 2, 3, 4, 6, 8, 10, 12, 13, 14, 15, 16, 17, 24, 25],
-				abnormals: {
-					23080: { speed: 1.25 }
-				}
+				noInterrupt: [1, 2, 3, 4, 6, 8, 10, 12, 13, 14, 15, 16, 17, 24, 25]
 			},
 			0: true,
 			1: true,
@@ -553,11 +540,7 @@ module.exports = {
 		},
 		12: { // Heart Thrust
 			'*': {
-				noInterrupt: [1, 2, 3, 4, 6, 8, 10, 12, 13, 14, 15, 16, 17, 24, 25],
-				abnormals: {
-					23060: { speed: 1.25 },
-					23061: { speed: 1.35 }
-				}
+				noInterrupt: [1, 2, 3, 4, 6, 8, 10, 12, 13, 14, 15, 16, 17, 24, 25]
 			},
 			0: true,
 			1: true,
@@ -670,13 +653,7 @@ module.exports = {
 		},
 		28: { // Unsheathe
 			'*': { noRetry: true },
-			0: {
-				chargeLevels: [1, 2, 3],
-				abnormals: {
-					301600: { chargeSpeed: 0.4 },
-					301601: { chargeSpeed: 0.6 }
-				}
-			},
+			0: { chargeLevels: [1, 2, 3] },
 			1: true,
 			2: true,
 			3: true
@@ -697,22 +674,9 @@ module.exports = {
 			31: { ignoreAttackSpeed: true }
 		},
 		3: { // Thunder Strike
-			'*': {
-				abnormals: {
-					24170: { speed: 1.25 }
-				}
-			},
 			0: {
 				noInterrupt: [2],
-				overcharge: 450,
-				abnormals: {
-					24130: { chargeSpeed: 0.3 },
-					24170: { speed: 1.25 },
-					400500: { chargeSpeed: 0.2 },
-					400501: { chargeSpeed: 0.4 },
-					400508: { chargeSpeed: 0.4 },
-					401150: { chargeSpeed: 0.2 }
-				}
+				overcharge: 450
 			},
 			10: { noRetry: true },
 			11: { noRetry: true },
@@ -756,13 +720,6 @@ module.exports = {
 			0: {
 				overcharge: 365,
 				noChargeAbnormalityId: 401701,
-				abnormals: {
-					24190: { chargeSpeed: 0.3 },
-					400500: { chargeSpeed: 0.2 },
-					400501: { chargeSpeed: 0.4 },
-					400508: { chargeSpeed: 0.4 },
-					401150: { chargeSpeed: 0.2 }
-				},
 				noRetry: true
 			},
 			10: { noRetry: true },
@@ -782,10 +739,6 @@ module.exports = {
 				releaseChain: {
 					overcharge: true,
 					chain: 14
-				},
-				abnormals: {
-					400500: { chargeSpeed: 0.2 },
-					400501: { chargeSpeed: 0.4 }
 				}
 			},
 			10: { noRetry: true },
@@ -957,9 +910,6 @@ module.exports = {
 		36: { // Unleash: Rampage
 			'*': {
 				requiredBuff: 401705,
-				abnormals: {
-					401708: { speed: 1.2 }
-				},
 				noRetry: true
 			},
 			0: {
@@ -997,18 +947,10 @@ module.exports = {
 			0: true
 		},
 		3: { // Lightning Trap
-			0: {
-				abnormals: {
-					25090: { speed: 1.4 }
-				}
-			}
+			0: true
 		},
 		4: { // Arcane Pulse
-			0: {
-				abnormals: {
-					25140: { chargeSpeed: 0.3 }
-				}
-			},
+			0: true,
 			10: { noRetry: true },
 			11: { noRetry: true },
 			12: { noRetry: true }
@@ -1017,11 +959,7 @@ module.exports = {
 			0: true
 		},
 		6: { // Meteor Strike
-			0: {
-				abnormals: {
-					25100: { speed: 1.25 }
-				}
-			}
+			0: true
 		},
 		7: { // Backstep
 			0: {
@@ -1030,11 +968,7 @@ module.exports = {
 			}
 		},
 		8: { // Flame Pillar
-			0: {
-				abnormals: {
-					25070: { speed: 1.25 }
-				}
-			}
+			0: true
 		},
 		10: { // Mana Barrier
 			0: true
@@ -1046,11 +980,7 @@ module.exports = {
 			0: true
 		},
 		13: { // Mindblast
-			0: {
-				abnormals: {
-					25110: { speed: 1.4 }
-				}
-			}
+			0: true
 		},
 		14: { // Retaliate
 			0: { noRetry: true }
@@ -1079,12 +1009,7 @@ module.exports = {
 				type: 'lockon',
 				ignoreAttackSpeed: true
 			},
-			10: {
-				type: 'lockonCast',
-				abnormals: {
-					25060: { speed: 1.25 }
-				}
-			}
+			10: { type: 'lockonCast' }
 		},
 		21: { // Nerve Exhaustion
 			'*': { noRetry: true },
@@ -1188,14 +1113,7 @@ module.exports = {
 			10: { type: 'lockonCast' }
 		},
 		3: { // Radiant Arrow
-			'*': {
-				moveDir: 1,
-				abnormals: {
-					26180: { chargeSpeed: 0.3 },
-					601450: { chargeSpeed: 0.5 },
-					602108: { speed: 1.3 }
-				}
-			},
+			'*': { moveDir: 1 },
 			0: true,
 			10: { noRetry: true },
 			11: { noRetry: true },
@@ -1203,17 +1121,7 @@ module.exports = {
 			13: { noRetry: true }
 		},
 		4: { // Penetrating Arrow
-			'*': {
-				moveDir: 1,
-				abnormals: {
-					26160: { chargeSpeed: 0.3 },
-					26170: { chargeSpeed: 0.3 },
-					26171: { chargeSpeed: 0.4 },
-					26190: { chargeSpeed: 0.3 },
-					601450: { chargeSpeed: 0.5 },
-					602108: { speed: 1.3 }
-				}
-			},
+			'*': { moveDir: 1 },
 			0: true,
 			10: { noRetry: true },
 			11: { noRetry: true },
@@ -1315,10 +1223,7 @@ module.exports = {
 			0: true
 		},
 		29: { // Thunderbolt
-			0: {
-				moveDir: 1,
-				abnormals: { 602108: { speed: 1.3 } }
-			}
+			0: { moveDir: 1 }
 		},
 		31: { // Tenacity
 			0: { ignoreAttackSpeed: true }
@@ -1338,7 +1243,6 @@ module.exports = {
 				noInterrupt: [34],
 				stamina: 150,
 				instantStamina: true,
-				abnormals: { 602107: { stamina: -30 } },
 				noRetry: true
 			},
 			0: {
@@ -1365,9 +1269,6 @@ module.exports = {
 			0: true
 		},
 		36: { // Gust Arrow
-			'*': {
-				abnormals: { 601450: { chargeSpeed: 0.5 } }
-			},
 			0: {
 				chargeLevels: [null, 360213],
 				autoRelease: 10
@@ -1722,11 +1623,7 @@ module.exports = {
 			'*': { noRetry: true },
 			0: {
 				chargeLevels: [10, 10],
-				autoRelease: 0,
-				abnormals: {
-					27070: { chargeSpeed: 0.25 },
-					27080: { chargeSpeed: 0.25 }
-				}
+				autoRelease: 0
 			},
 			10: true
 		},
@@ -1737,10 +1634,7 @@ module.exports = {
 			'*': { noRetry: true },
 			0: {
 				chargeLevels: [10, 10],
-				autoRelease: 0,
-				abnormals: {
-					27100: { chargeSpeed: 0.25 }
-				}
+				autoRelease: 0
 			},
 			10: true
 		},
@@ -1978,9 +1872,6 @@ module.exports = {
 						distance: 0
 					}],
 					distance: 0
-				},
-				abnormals: {
-					29030: { speed: 1.25 }
 				}
 			},
 			0: {
@@ -3531,10 +3422,6 @@ module.exports = {
 		},
 		8: { // Fire Avalanche
 			'*': {
-				abnormals: {
-					32033: { speed: 1.2 },
-					32058: { speed: 1.3 }
-				},
 				hasChains: true,
 				noRetry: true
 			},
@@ -3582,11 +3469,7 @@ module.exports = {
 		15: { // Burning Heart
 			'*': {
 				stamina: 100,
-				instantStamina: true,
-				abnormals: {
-					32033: { speed: 1.2 },
-					32058: { speed: 1.3 }
-				}
+				instantStamina: true
 			},
 			1: true,
 			2: true,
