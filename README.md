@@ -42,7 +42,7 @@ This file contains skill data specific to skill-prediction. The basic structure 
 * * `'lockon'`
 * * `'lockonCast'`
 * * `'userProjectile'`: Client-sided projectile (not a skill).
-* **fixedSpeed** (boolean): Ignore attack speed.
+* **ignoreAttackSpeed** (boolean)
 * **length**: The skill animation length before taking into account speed multipliers.
 * **distance**: The distance the skill moves the player in the direction it's facing.
 * **moveDir**: Distance rotation in half-turns (default 0).

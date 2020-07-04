@@ -18,9 +18,9 @@
 module.exports = {
 	'*': { // All-class
 		9010100: true, // Racial teleport
-		9020100: { fixedSpeed: true }, // Racial buff 1
-		9030100: { fixedSpeed: true }, // Racial buff 2
-		9100100: { fixedSpeed: true } // Apex Urgency
+		9020100: { ignoreAttackSpeed: true }, // Racial buff 1
+		9030100: { ignoreAttackSpeed: true }, // Racial buff 2
+		9100100: { ignoreAttackSpeed: true } // Apex Urgency
 	},
 	0: { // Warrior
 		1: { // Combo Attack
@@ -75,7 +75,7 @@ module.exports = {
 		16: { // Charging Slash
 			'*': { noInterrupt: [40] },
 			0: {
-				fixedSpeed: true,
+				ignoreAttackSpeed: true,
 				length: 1100,
 				distance: 467.88,
 				noRetry: true
@@ -99,7 +99,7 @@ module.exports = {
 		},
 		20: { // Deadly Gamble
 			0: {
-				fixedSpeed: true,
+				ignoreAttackSpeed: true,
 				cooldownEnd: 300
 			}
 		},
@@ -113,17 +113,17 @@ module.exports = {
 			}
 		},
 		24: { // Smoke Aggressor
-			0: { fixedSpeed: true }
+			0: { ignoreAttackSpeed: true }
 		},
 		25: { // Command: Attack
 			0: {
-				fixedSpeed: true,
+				ignoreAttackSpeed: true,
 				requiredBuff: 102600
 			}
 		},
 		26: { // Command: Follow
 			0: {
-				fixedSpeed: true,
+				ignoreAttackSpeed: true,
 				requiredBuff: 102600
 			}
 		},
@@ -179,7 +179,7 @@ module.exports = {
 		},
 		32: { // Cross Parry
 			0: {
-				fixedSpeed: true,
+				ignoreAttackSpeed: true,
 				requiredBuff: [100200, 100201],
 				stamina: 50
 			}
@@ -290,7 +290,7 @@ module.exports = {
 		},
 		2: { // Stand Fast
 			'*': {
-				fixedSpeed: true,
+				ignoreAttackSpeed: true,
 				stamina: 50,
 				level: {
 					1: { stamina: 40 }
@@ -384,7 +384,7 @@ module.exports = {
 		},
 		15: { // Charging Lunge
 			0: {
-				fixedSpeed: true,
+				ignoreAttackSpeed: true,
 				length: 1125,
 				distance: 474.5,
 				noInterrupt: [15]
@@ -392,10 +392,10 @@ module.exports = {
 			1: true
 		},
 		16: { // Second Wind
-			0: { fixedSpeed: true }
+			0: { ignoreAttackSpeed: true }
 		},
 		17: { // Adrenaline Rush
-			'*': { fixedSpeed: true },
+			'*': { ignoreAttackSpeed: true },
 			0: true,
 			40: true
 		},
@@ -408,7 +408,7 @@ module.exports = {
 			1: true
 		},
 		19: { // Pledge of Protection
-			0: { fixedSpeed: true }
+			0: { ignoreAttackSpeed: true }
 		},
 		21: { // Lockdown Blow
 			1: true,
@@ -421,7 +421,7 @@ module.exports = {
 			30: true
 		},
 		22: { // Iron Will
-			0: { fixedSpeed: true }
+			0: { ignoreAttackSpeed: true }
 		},
 		23: { // Master's Leash
 			0: { requiredBuff: 201000 }
@@ -468,7 +468,7 @@ module.exports = {
 		},
 		29: { // Guardian's Barrier
 			0: {
-				fixedSpeed: true,
+				ignoreAttackSpeed: true,
 				noRetry: true
 			}
 		},
@@ -521,7 +521,7 @@ module.exports = {
 			30: true
 		},
 		5: { // Dash
-			0: { fixedSpeed: true }
+			0: { ignoreAttackSpeed: true }
 		},
 		6: { // Backstab
 			0: {
@@ -591,7 +591,7 @@ module.exports = {
 		},
 		17: { // Headlong Rush
 			0: {
-				fixedSpeed: true,
+				ignoreAttackSpeed: true,
 				length: 1000,
 				distance: 413
 			}
@@ -601,10 +601,10 @@ module.exports = {
 			50: true
 		},
 		19: { // Tenacity
-			0: { fixedSpeed: true }
+			0: { ignoreAttackSpeed: true }
 		},
 		20: { // In Cold Blood
-			0: { fixedSpeed: true }
+			0: { ignoreAttackSpeed: true }
 		},
 		23: { // Measured Slice
 			'*': { hasChains: true },
@@ -698,7 +698,7 @@ module.exports = {
 			'*': { consumeAbnormal: 401701 },
 			0: true,
 			30: true,
-			31: { fixedSpeed: true }
+			31: { ignoreAttackSpeed: true }
 		},
 		3: { // Thunder Strike
 			'*': {
@@ -745,7 +745,7 @@ module.exports = {
 			31: true
 		},
 		5: { // Dash
-			0: { fixedSpeed: true }
+			0: { ignoreAttackSpeed: true }
 		},
 		6: { // Sweeping Strike
 			'*': { noRetry: true },
@@ -753,7 +753,7 @@ module.exports = {
 			30: true
 		},
 		8: { // Fiery Rage
-			1: { fixedSpeed: true },
+			1: { ignoreAttackSpeed: true },
 			30: true
 		},
 		10: { // Cyclone
@@ -802,8 +802,8 @@ module.exports = {
 			14: true
 		},
 		16: { // Fearsome Shout / Titanic Shout
-			0: { fixedSpeed: true },
-			10: { fixedSpeed: true },
+			0: { ignoreAttackSpeed: true },
+			10: { ignoreAttackSpeed: true },
 			20: {
 				abnormals: { 400616: { disableSkill: true } }
 			}
@@ -838,13 +838,13 @@ module.exports = {
 			30: true
 		},
 		19: { // Triumphant Shout
-			0: { fixedSpeed: true }
+			0: { ignoreAttackSpeed: true }
 		},
 		20: { // Inescapable Doom
-			0: { fixedSpeed: true }
+			0: { ignoreAttackSpeed: true }
 		},
 		21: { // Bloodlust
-			0: { fixedSpeed: true }
+			0: { ignoreAttackSpeed: true }
 		},
 		24: { // Evasive Smash
 			0: true,
@@ -917,7 +917,7 @@ module.exports = {
 		},
 		31: { // Overwhelm
 			0: {
-				fixedSpeed: true,
+				ignoreAttackSpeed: true,
 				length: 1115,
 				distance: 467.88
 			},
@@ -1086,7 +1086,7 @@ module.exports = {
 			'*': { noRetry: true },
 			0: {
 				type: 'lockon',
-				fixedSpeed: true
+				ignoreAttackSpeed: true
 			},
 			10: {
 				type: 'lockonCast',
@@ -1099,44 +1099,44 @@ module.exports = {
 			'*': { noRetry: true },
 			0: {
 				type: 'lockon',
-				fixedSpeed: true
+				ignoreAttackSpeed: true
 			},
 			10: {
 				type: 'lockonCast',
-				fixedSpeed: true
+				ignoreAttackSpeed: true
 			}
 		},
 		22: { // Burning Breath
 			'*': { noRetry: true },
 			0: {
 				type: 'lockon',
-				fixedSpeed: true
+				ignoreAttackSpeed: true
 			},
 			10: {
 				type: 'lockonCast',
-				fixedSpeed: true
+				ignoreAttackSpeed: true
 			}
 		},
 		23: { // Mana Volley
 			'*': { noRetry: true },
 			0: {
 				type: 'lockon',
-				fixedSpeed: true
+				ignoreAttackSpeed: true
 			},
 			10: {
 				type: 'lockonCast',
-				fixedSpeed: true
+				ignoreAttackSpeed: true
 			}
 		},
 		25: { // Time Gyre
 			'*': { noRetry: true },
 			0: {
 				type: 'lockon',
-				fixedSpeed: true
+				ignoreAttackSpeed: true
 			},
 			10: {
 				type: 'lockonCast',
-				fixedSpeed: true
+				ignoreAttackSpeed: true
 			}
 		},
 		26: { // Teleport Jaunt
@@ -1192,7 +1192,7 @@ module.exports = {
 			'*': { noRetry: true },
 			0: {
 				type: 'lockon',
-				fixedSpeed: true
+				ignoreAttackSpeed: true
 			},
 			10: { type: 'lockonCast' }
 		},
@@ -1257,7 +1257,7 @@ module.exports = {
 		},
 		7: { // Feign Death
 			0: {
-				fixedSpeed: true,
+				ignoreAttackSpeed: true,
 				moveDir: 1
 			}
 		},
@@ -1330,14 +1330,14 @@ module.exports = {
 			}
 		},
 		31: { // Tenacity
-			0: { fixedSpeed: true }
+			0: { ignoreAttackSpeed: true }
 		},
 		32: { // Find Weakness
 			0: true
 		},
 		33: { // Chase
 			0: {
-				fixedSpeed: true,
+				ignoreAttackSpeed: true,
 				length: 1000,
 				distance: 413
 			}
@@ -1483,23 +1483,14 @@ module.exports = {
 			'*': { noRetry: true },
 			0: {
 				type: 'lockon',
-				fixedSpeed: true
+				ignoreAttackSpeed: true
 			},
 			10: {
 				type: 'lockonCast',
 				level: {
-					29: {
-						fixedSpeed: true,
-						cooldownEnd: 100 // Workaround: Fixes ghosting while on CD - TODO: Enable global cooldown checks
-					},
-					30: {
-						fixedSpeed: true,
-						cooldownEnd: 100 // Workaround: Fixes ghosting while on CD - TODO: Enable global cooldown checks
-					},
-					31: {
-						fixedSpeed: true,
-						cooldownEnd: 100 // Workaround: Fixes ghosting while on CD - TODO: Enable global cooldown checks
-					}
+					29: { ignoreAttackSpeed: true },
+					30: { ignoreAttackSpeed: true },
+					31: { ignoreAttackSpeed: true }
 				}
 			}
 		},
@@ -1559,21 +1550,21 @@ module.exports = {
 		},
 		30: { // Plague of Exhaustion
 			'*': {
-				fixedSpeed: true,
+				ignoreAttackSpeed: true,
 				noRetry: true
 			},
 			0: { type: 'lockon' },
 			10: { type: 'lockonCast' }
 		},
 		31: { // Guardian Sanctuary
-			0: { fixedSpeed: true }
+			0: { ignoreAttackSpeed: true }
 		},
 		32: { // Divine Prayer
-			0: { fixedSpeed: true }
+			0: { ignoreAttackSpeed: true }
 		},
 		33: { // Ishara's Lulliby
 			'*': {
-				fixedSpeed: true,
+				ignoreAttackSpeed: true,
 				noRetry: true
 			},
 			0: { type: 'lockon' },
@@ -1584,7 +1575,7 @@ module.exports = {
 		},
 		35: { // Energy Stars
 			'*': {
-				fixedSpeed: true,
+				ignoreAttackSpeed: true,
 				noRetry: true
 			},
 			0: { type: 'lockon' },
@@ -1592,7 +1583,7 @@ module.exports = {
 		},
 		37: { // Healing Immersion
 			'*': {
-				fixedSpeed: true,
+				ignoreAttackSpeed: true,
 				noRetry: true
 			},
 			0: {
@@ -1623,7 +1614,7 @@ module.exports = {
 			'*': { noRetry: true },
 			0: {
 				type: 'lockon',
-				fixedSpeed: true,
+				ignoreAttackSpeed: true,
 				partyOnly: true
 			},
 			10: { type: 'lockonCast' }
@@ -1653,19 +1644,13 @@ module.exports = {
 			'*': { noRetry: true },
 			0: {
 				type: 'lockon',
-				fixedSpeed: true
+				ignoreAttackSpeed: true
 			},
 			10: {
 				type: 'lockonCast',
 				level: {
-					29: { // Velocity
-						fixedSpeed: true,
-						cooldownEnd: 100 // Workaround: Fixes ghosting while on CD - TODO: Enable global cooldown checks
-					},
-					30: { // Downfall
-						fixedSpeed: true,
-						cooldownEnd: 100 // Workaround: Fixes ghosting while on CD - TODO: Enable global cooldown checks
-					}
+					29: { ignoreAttackSpeed: true },
+					30: { ignoreAttackSpeed: true }
 				}
 			}
 		},
@@ -1687,7 +1672,7 @@ module.exports = {
 			'*': { noRetry: true },
 			0: {
 				type: 'lockon',
-				fixedSpeed: true
+				ignoreAttackSpeed: true
 			},
 			10: { type: 'lockonCast' }
 		},
@@ -1714,7 +1699,7 @@ module.exports = {
 			'*': { noRetry: true },
 			0: {
 				type: 'lockon',
-				fixedSpeed: true,
+				ignoreAttackSpeed: true,
 				partyOnly: true
 			},
 			10: { type: 'lockonCast' }
@@ -1777,7 +1762,7 @@ module.exports = {
 		},
 		24: { // Volley of Curses
 			'*': {
-				fixedSpeed: true,
+				ignoreAttackSpeed: true,
 				noRetry: true
 			},
 			0: { type: 'lockon' },
@@ -1785,7 +1770,7 @@ module.exports = {
 		},
 		25: { // Thrall of Protection
 			'*': {
-				fixedSpeed: true,
+				ignoreAttackSpeed: true,
 				cooldownEnd: 300
 			},
 			0: true,
@@ -1794,7 +1779,7 @@ module.exports = {
 		},
 		27: { // Thrall of Life
 			'*': {
-				fixedSpeed: true,
+				ignoreAttackSpeed: true,
 				cooldownEnd: 300
 			},
 			0: true,
@@ -1803,18 +1788,18 @@ module.exports = {
 		},
 		28: { // Sonorous Dreams
 			'*': {
-				fixedSpeed: true,
+				ignoreAttackSpeed: true,
 				noRetry: true
 			},
 			0: { type: 'lockon' },
 			10: { type: 'lockonCast' }
 		},
 		29: { // Regression
-			0: { fixedSpeed: true }
+			0: { ignoreAttackSpeed: true }
 		},
 		30: { // Curse of Exhaustion
 			'*': {
-				fixedSpeed: true,
+				ignoreAttackSpeed: true,
 				noRetry: true
 			},
 			0: { type: 'lockon' },
@@ -1822,7 +1807,7 @@ module.exports = {
 		},
 		31: { // Curse of Confusion
 			'*': {
-				fixedSpeed: true,
+				ignoreAttackSpeed: true,
 				noRetry: true
 			},
 			0: { type: 'lockon' },
@@ -1830,7 +1815,7 @@ module.exports = {
 		},
 		32: { // Mire
 			'*': {
-				fixedSpeed: true,
+				ignoreAttackSpeed: true,
 				noRetry: true
 			},
 			0: { type: 'lockon' },
@@ -1838,7 +1823,7 @@ module.exports = {
 		},
 		33: { // Thrall of Vengeance
 			'*': {
-				fixedSpeed: true,
+				ignoreAttackSpeed: true,
 				cooldownEnd: 300
 			},
 			0: true,
@@ -1847,7 +1832,7 @@ module.exports = {
 		},
 		34: { // Thrall of Wrath
 			'*': {
-				fixedSpeed: true,
+				ignoreAttackSpeed: true,
 				cooldownEnd: 300
 			},
 			0: true,
@@ -1855,10 +1840,10 @@ module.exports = {
 			30: true
 		},
 		35: { // Command: Attack
-			0: { fixedSpeed: true }
+			0: { ignoreAttackSpeed: true }
 		},
 		36: { // Command: Follow
-			0: { fixedSpeed: true }
+			0: { ignoreAttackSpeed: true }
 		},
 		37: { // Warding Totem
 			0: true
@@ -1867,7 +1852,7 @@ module.exports = {
 			'*': { noRetry: true },
 			0: {
 				type: 'lockon',
-				fixedSpeed: true
+				ignoreAttackSpeed: true
 			},
 			10: { type: 'lockonCast' }
 		},
@@ -1895,7 +1880,7 @@ module.exports = {
 			0: true
 		},
 		48: { // Thrall Lord
-			0: { fixedSpeed: true }
+			0: { ignoreAttackSpeed: true }
 		}
 	},
 	8: { // Reaper
@@ -2332,11 +2317,11 @@ module.exports = {
 			0: { noRetry: true }
 		},
 		15: { // Retribution
-			30: { fixedSpeed: true },
+			30: { ignoreAttackSpeed: true },
 			81: true
 		},
 		16: { // Shadow Reaping
-			0: { fixedSpeed: true }
+			0: { ignoreAttackSpeed: true }
 		},
 		19: { // Dark Harvest
 			'*': {
@@ -2394,7 +2379,7 @@ module.exports = {
 			30: true
 		},
 		23: { // Binding Scythes
-			31: { fixedSpeed: true },
+			31: { ignoreAttackSpeed: true },
 			33: { onlyTarget: true }
 		},
 		40: { // Shadow Step
@@ -2410,7 +2395,7 @@ module.exports = {
 		'*': { consumeAbnormal: [10152010, 10152011] },
 		1: { // Blast
 			'*': {
-				fixedSpeed: true,
+				ignoreAttackSpeed: true,
 				noInterrupt: [1],
 				projectiles: [20],
 				triggerAbnormal: { 10152011: 3100 },
@@ -2429,7 +2414,7 @@ module.exports = {
 			'*': { noRetry: true },
 			0: {
 				type: 'lockon',
-				fixedSpeed: true
+				ignoreAttackSpeed: true
 			},
 			1: { type: 'lockonCast' }
 		},
@@ -2566,7 +2551,7 @@ module.exports = {
 			'*': { noInterrupt: ['9-0', '9-10', '9-20'] },
 			0: { noRetry: true },
 			1: {
-				fixedSpeed: true,
+				ignoreAttackSpeed: true,
 				stamina: 75,
 				instantStamina: true,
 				level: [
@@ -2578,20 +2563,20 @@ module.exports = {
 			},
 			10: { noRetry: true },
 			11: {
-				fixedSpeed: true,
+				ignoreAttackSpeed: true,
 				stamina: 75,
 				instantStamina: true
 			},
 			20: { noRetry: true },
 			21: {
-				fixedSpeed: true,
+				ignoreAttackSpeed: true,
 				stamina: 90,
 				instantStamina: true
 			}
 		},
 		6: { // Time Bomb
 			'*': {
-				fixedSpeed: true,
+				ignoreAttackSpeed: true,
 				projectiles: [20],
 				triggerAbnormal: {
 					10152010: 3100,
@@ -2607,13 +2592,13 @@ module.exports = {
 		},
 		7: { // Arcane Barrage
 			1: {
-				fixedSpeed: true,
+				ignoreAttackSpeed: true,
 				noInterrupt: [7],
 				triggerAbnormal: { 10152010: 3100 },
 				noRetry: true
 			},
 			2: {
-				fixedSpeed: true,
+				ignoreAttackSpeed: true,
 				noInterrupt: [7],
 				triggerAbnormal: { 10152010: 3100 },
 				noRetry: true
@@ -2884,7 +2869,7 @@ module.exports = {
 		},
 		15: { // Replenishment
 			'*': {
-				fixedSpeed: true,
+				ignoreAttackSpeed: true,
 				noInterrupt: [15]
 			},
 			1: {
@@ -2930,7 +2915,7 @@ module.exports = {
 			30: true
 		},
 		18: { // HB
-			'*': { fixedSpeed: true },
+			'*': { ignoreAttackSpeed: true },
 			1: true,
 			2: true
 		},
@@ -3000,7 +2985,7 @@ module.exports = {
 		},
 		40: { // Rolling Reload / Dashing Reload
 			'*': {
-				fixedSpeed: true,
+				ignoreAttackSpeed: true,
 				triggerAbnormal: {
 					10152010: 3100,
 					10152012: 3100,
@@ -3027,7 +3012,7 @@ module.exports = {
 		},
 		41: { // Modular Weapon System
 			'*': {
-				fixedSpeed: true,
+				ignoreAttackSpeed: true,
 				hasChains: true
 			},
 			1: {
@@ -3074,7 +3059,7 @@ module.exports = {
 		},
 		42: { // Detonate
 			1: {
-				fixedSpeed: true,
+				ignoreAttackSpeed: true,
 				triggerAbnormal: { 10152011: 3100 }
 			}
 		},
@@ -3283,12 +3268,12 @@ module.exports = {
 				consumeAbnormalEnd: 10153004
 			},
 			10: {
-				fixedSpeed: true,
+				ignoreAttackSpeed: true,
 				triggerAbnormal: { 10153006: 0x7fffffff },
 				consumeAbnormalEnd: 10153006
 			},
 			11: {
-				fixedSpeed: true,
+				ignoreAttackSpeed: true,
 				triggerAbnormal: { 10153005: 0x7fffffff },
 				consumeAbnormalEnd: 10153005
 			},
@@ -3304,7 +3289,7 @@ module.exports = {
 		},
 		3: { // Divine Wrath
 			'*': {
-				fixedSpeed: true,
+				ignoreAttackSpeed: true,
 				noRetry: true
 			},
 			0: true,
@@ -3320,7 +3305,7 @@ module.exports = {
 		},
 		5: { // Bullrush
 			0: {
-				fixedSpeed: true,
+				ignoreAttackSpeed: true,
 				noRetry: true
 			}
 		},
@@ -3361,7 +3346,7 @@ module.exports = {
 		9: { // Jackhammer
 			'*': {
 				noInterrupt: [9],
-				fixedSpeed: true,
+				ignoreAttackSpeed: true,
 				hasChains: true
 			},
 			1: { categoryChains: { 800: 30 } },
@@ -3381,7 +3366,7 @@ module.exports = {
 			0: { noRetry: true }
 		},
 		13: { // Provoke
-			'*': { fixedSpeed: true },
+			'*': { ignoreAttackSpeed: true },
 			1: true,
 			2: true
 		},
@@ -3416,7 +3401,7 @@ module.exports = {
 		},
 		19: { // Invigorating Rage
 			'*': {
-				fixedSpeed: true,
+				ignoreAttackSpeed: true,
 				stamina: 1500,
 				instantStamina: true
 			},
@@ -3424,7 +3409,7 @@ module.exports = {
 			2: true
 		},
 		21: { // Mounting Rage
-			'*': { fixedSpeed: true },
+			'*': { ignoreAttackSpeed: true },
 			1: true,
 			2: true
 		},
@@ -3459,7 +3444,7 @@ module.exports = {
 		},
 		40: { // Quick Dash
 			'*': {
-				fixedSpeed: true,
+				ignoreAttackSpeed: true,
 				forceClip: true,
 				abnormalChains: { 10153150: 30 },
 				noRetry: true
@@ -3472,7 +3457,7 @@ module.exports = {
 		'*': { consumeAbnormal: [10154000, 10154001, 10154002, 10154003, 10154004, 10154005, 10154006] },
 		1: { // Combo Attack
 			'*': {
-				fixedSpeed: true,
+				ignoreAttackSpeed: true,
 				triggerAbnormal: { 10154000: 1650 },
 				hasChains: true,
 				noRetry: true
@@ -3496,7 +3481,7 @@ module.exports = {
 		},
 		2: { // Shadow Jump
 			'*': {
-				fixedSpeed: true,
+				ignoreAttackSpeed: true,
 				forceClip: true,
 				abnormalChains: { 10154010: 30 }
 			},
@@ -3519,7 +3504,7 @@ module.exports = {
 		},
 		4: { // Jagged Path
 			1: {
-				fixedSpeed: true,
+				ignoreAttackSpeed: true,
 				length: 665,
 				distance: 469
 			},
@@ -3543,7 +3528,7 @@ module.exports = {
 			'*': { hasChains: true },
 			0: { categoryChains: { 900: 30 } },
 			1: {
-				fixedSpeed: true,
+				ignoreAttackSpeed: true,
 				length: 300,
 				distance: 246
 			},
@@ -3627,7 +3612,7 @@ module.exports = {
 		},
 		16: { // Death Blossom
 			'*': {
-				fixedSpeed: true,
+				ignoreAttackSpeed: true,
 				hasChains: true
 			},
 			0: { categoryChains: { 900: 30 } },
@@ -3649,7 +3634,7 @@ module.exports = {
 			30: true
 		},
 		20: { // Clone Jutsu
-			0: { fixedSpeed: true }
+			0: { ignoreAttackSpeed: true }
 		},
 		21: { // Boomerang Shuriken
 			'*': {
@@ -3786,14 +3771,14 @@ module.exports = {
 		8: { // Titansbane
 			'*': { hasChains: true },
 			0: {
-				fixedSpeed: true,
+				ignoreAttackSpeed: true,
 				categoryChains: {
 					'13008,10000': 1,
 					750: 30
 				}
 			},
 			1: true,
-			30: { fixedSpeed: true }
+			30: { ignoreAttackSpeed: true }
 		},
 		9: { // Ground Bash
 			'*': {
@@ -3837,7 +3822,7 @@ module.exports = {
 		},
 		14: { // Evasion
 			'*': {
-				fixedSpeed: true,
+				ignoreAttackSpeed: true,
 				forceClip: true
 			},
 			0: true,
@@ -3850,14 +3835,14 @@ module.exports = {
 		},
 		16: { // Runeburst
 			'*': {
-				fixedSpeed: true,
+				ignoreAttackSpeed: true,
 				hasChains: true
 			},
 			0: { categoryChains: { 750: 30 } },
 			30: true
 		},
 		17: { // Balder's Tears
-			0: { fixedSpeed: true }
+			0: { ignoreAttackSpeed: true }
 		},
 		18: { // Retaliate
 			0: { noRetry: true }
@@ -3876,7 +3861,7 @@ module.exports = {
 		21: { // Dark Herald
 			0: {
 				requiredBuff: 10155201,
-				fixedSpeed: true
+				ignoreAttackSpeed: true
 			}
 		},
 		23: { // Gungir's Bite

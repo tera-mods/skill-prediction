@@ -5,12 +5,12 @@
 		"config/passivity.json": "ZjLLjFV2I+jzMksmccPYdXLQ/lnXP7MOEZn25JP4RSE=",
 		"config/polishing.json": "DJbhNVNbHua8wEQH2Bz1BVLOLsoj6+7qMf/lUxd2CY4=",
 		"config/silence.json": "T1PNoYwrqgwDVLtfmj7L5e0Sq02OEbqHPC8RFhICuUU=",
-		"config/skills.js": "M+WcICFcA9Z6GCjGJ2J1rBds9sS0bqZPb4FV5sIhhL8=",
+		"config/skills.js": "CWFQz+EkCxa5P/aqUL76MZtvrTD7wOIsaoFY56VnaNQ=",
 		"config/skills_client.json": "mm7HmutEuAoj7aZNXErmVUdEv8tgq/RteWQ9PKbI5EM=",
 		"lib/abnormalities.js": "PmTXVe8uKuizqwNQNmA6w9/sENyjMnts51oZT1taNjA=",
 		"lib/commands.js": "ycSSl8PhSGMY4/k0gXAsuDSoKXZ3cmmbPVBwHbLC6RE=",
 		"lib/cooldowns.js": "HbW6um+GX33UC0pClC18Sbcc6Uiw57uU2ftrAj8JUFQ=",
-		"lib/core.js": "Grvjs3XAmuq4SjQiY9QLT28A7OhGZAba2KAUSCsIeCc=",
+		"lib/core.js": "tEFfqYGB/EuJws7JMQZMUjCX9Wj618mi9fK+RwZD3DY=",
 		"lib/debug.js": "hpB/TneaJGNT9dR1aD0rNeKAYcroMbOAzGYkbtqmZbs=",
 		"lib/index.js": "HXCSz9opRU53Yb7TSlxQBm0scCuIwDo7o1YLfGEVINY=",
 		"lib/ping.js": "yRvxmr2oUvL8J1bS6xxl4xzVfBaq23ApoEDYnDJDr10=",
@@ -18,8 +18,8 @@
 		"lib/require.js": "hvLnBvA6Ccy1YA1KDSUHPuz375nZ+f2GV02PdC2+sjE=",
 		"LICENSE": "WJ7YI+moTFb+uVrFjnzzhGJrnL9P2iqQe8NuED3hutI=",
 		"mod.json": "7e/zJ+s943HpTyOs2Ct2xVEDEbI4/wuDFpAXgelZ3es=",
-		"README.md": "lKk32pa79Kmi64wHFW6TTBebhlRkZLke5toU7tjZq3I="
+		"README.md": "/dCVfy/RNNOX/TWoy3wCmTwdvcblBRV5bhRdvip2eRE="
 	},
 	"publicKey": "MCowBQYDK2VwAyEAY31fpV8rIvZ3zGJE6nqoLXcI27/C3xmjDWV7PDavK4w=",
-	"signature": "+EVp3qUbdgLstnntk9fZPt656BAwz8hyPzLv//PwoiyhEqPCpH38YDPZciqE2R27kaW1f/nWxtImuI58HdaBDw=="
+	"signature": "Od9vAggVjExsLnLccYyUxVlkWNkR9y1PMXQ4lrXXOhV1q/toPuSYap1McitoOunb0nNaby31L4vtzGGuCP47DQ=="
 }
