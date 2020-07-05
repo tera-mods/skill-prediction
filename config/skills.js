@@ -1129,20 +1129,7 @@ module.exports = {
 			13: { noRetry: true }
 		},
 		5: { // Rain of Arrows
-			0: {
-				abnormals: {
-					902: { speed: 1.15 },
-					911: { speed: 1.15 },
-					912: { speed: 1.15 },
-					913: { speed: 1.15 },
-					916: { speed: 1.15 },
-					917: { speed: 1.15 },
-					920: { speed: 1.225 },
-					921: { speed: 1.225 },
-					922: { speed: 1.225 },
-					999010000: { speed: 1.15 }
-				}
-			}
+			0: true
 		},
 		6: { // Backstep
 			0: {
@@ -1284,20 +1271,7 @@ module.exports = {
 			3: true
 		},
 		2: { // Regeneration Circle
-			0: {
-				abnormals: {
-					902: { speed: 1.15 },
-					911: { speed: 1.15 },
-					912: { speed: 1.15 },
-					913: { speed: 1.15 },
-					916: { speed: 1.15 },
-					917: { speed: 1.15 },
-					920: { speed: 1.225 },
-					921: { speed: 1.225 },
-					922: { speed: 1.225 },
-					999010000: { speed: 1.15 }
-				}
-			}
+			0: true
 		},
 		3: { // Healing Circle
 			0: {
@@ -1327,20 +1301,7 @@ module.exports = {
 			2: true
 		},
 		12: { // Resurrect
-			0: {
-				abnormals: {
-					902: { speed: 1.15 },
-					911: { speed: 1.15 },
-					912: { speed: 1.15 },
-					913: { speed: 1.15 },
-					916: { speed: 1.15 },
-					917: { speed: 1.15 },
-					920: { speed: 1.225 },
-					921: { speed: 1.225 },
-					922: { speed: 1.225 },
-					999010000: { speed: 1.15 }
-				}
-			}
+			0: true
 		},
 		14: { // Summon: Group
 			0: true
@@ -1569,20 +1530,7 @@ module.exports = {
 			10: { type: 'lockonCast' }
 		},
 		10: { // Resurrect
-			0: {
-				abnormals: {
-					902: { speed: 1.25 },
-					911: { speed: 1.25 },
-					912: { speed: 1.25 },
-					913: { speed: 1.25 },
-					916: { speed: 1.25 },
-					917: { speed: 1.25 },
-					920: { speed: 1.375 },
-					921: { speed: 1.375 },
-					922: { speed: 1.375 },
-					999010000: { speed: 1.25 }
-				}
-			}
+			0: true
 		},
 		11: { // Summon: Group
 			0: true
