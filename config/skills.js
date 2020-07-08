@@ -340,7 +340,10 @@ module.exports = {
 			0: true
 		},
 		8: { // Shield Counter
-			0: { onlyDefenceSuccess: true }
+			0: {
+				onlyDefenceSuccess: true,
+				noRetry: true
+			}
 		},
 		9: { // Leash
 			0: true

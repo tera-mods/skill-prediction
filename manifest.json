@@ -7,7 +7,7 @@
 		"client_data/polishing.json": "DJbhNVNbHua8wEQH2Bz1BVLOLsoj6+7qMf/lUxd2CY4=",
 		"client_data/skills.json": "4Jo5KqltzQbvtBUxTYUo2iwYw591chRxclIx2F6i8jU=",
 		"config/abnormalities.js": "gPZkW0c7WteSBOhMtE/w7PlYsiJfytmZtGGpNWm6Srk=",
-		"config/skills.js": "5aHrJoUEipkv9dSmqx9OAkdjlmYbh2qAm74oFGTERf0=",
+		"config/skills.js": "1zRPZw0ApUIcLE8uoTHUO8/DktcmjkNJfKhbMLkhxR0=",
 		"lib/abnormalities.js": "PmTXVe8uKuizqwNQNmA6w9/sENyjMnts51oZT1taNjA=",
 		"lib/commands.js": "ycSSl8PhSGMY4/k0gXAsuDSoKXZ3cmmbPVBwHbLC6RE=",
 		"lib/cooldowns.js": "0NBVvWqKRdTf4Q4cfngC45osjqsB0RHQh3aNWHp8Xy0=",
@@ -22,5 +22,5 @@
 		"README.md": "/dCVfy/RNNOX/TWoy3wCmTwdvcblBRV5bhRdvip2eRE="
 	},
 	"publicKey": "MCowBQYDK2VwAyEAY31fpV8rIvZ3zGJE6nqoLXcI27/C3xmjDWV7PDavK4w=",
-	"signature": "A/YzQ6jBMgCX6lpM7Il6LOHZnwCahdd2kdkbTshP20pkEPBF2iKLWm6xQhZYV/WSDoD6m8bwvbnsnQIvUu+8Ag=="
+	"signature": "un3HKYGAc3sCl+fJbVkUKRY5oPUly/pYqO1mDG0KAtGH9ycZqvrQ5XWeHRKadlGXqJAomGI6+broC8s1KY27BA=="
 }
