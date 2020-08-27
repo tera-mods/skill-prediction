@@ -2384,6 +2384,7 @@ module.exports = {
 			'*': { noInterrupt: ['9-0', '9-10', '9-20'] },
 			0: { noRetry: true },
 			1: {
+				ignoreAttackSpeed: true,
 				stamina: 75,
 				instantStamina: true,
 				level: [
@@ -2395,11 +2396,13 @@ module.exports = {
 			},
 			10: { noRetry: true },
 			11: {
+				ignoreAttackSpeed: true,
 				stamina: 75,
 				instantStamina: true
 			},
 			20: { noRetry: true },
 			21: {
+				ignoreAttackSpeed: true,
 				stamina: 90,
 				instantStamina: true
 			}

@@ -1,17 +1,18 @@
 {
 	"data": {
-		"client_data/abnormality.json": "foP+Q1VtneS8cN6UF5NKQ0AYZjNGxwMLsxGI62MlaZg=",
+		"client_data/abnormality.json": "c0ifsmWiENnW467fu94t12M47HPI27rvCB3iPNYrWpw=",
 		"client_data/ep.json": "99e0XP7wW8TP5BRWOwnfeJIuYoqBR+kpy2WgzjUoGNA=",
 		"client_data/noctan.json": "t79LyRoG7jVj/YOWIlUYlAcOjT2YeXPge758mnGktbM=",
-		"client_data/passivity.json": "IqfBHumWBgFkEd8Z7/Dk/8Hfe+Be3YT86qbLN3ocg4E=",
+		"client_data/passivity.json": "tirya9pUHfOXo0M1OeNQJuaPvfQn8DE+rcBzGguavaA=",
 		"client_data/polishing.json": "1Qp35XY8QPEuA85eR7jKZOz8DYqopVLpd1dk8uEFcBY=",
-		"client_data/skills.json": "rUqj//8oZzRN6cheSyPmK0Lsa6sa3vTxwZzE9F1rMm4=",
+		"client_data/skills.json": "VLuBKy07jgh/LGRSgTB3f0/NDcCj2SsFSKM9q9o1Q8c=",
 		"config/abnormalities.js": "gPZkW0c7WteSBOhMtE/w7PlYsiJfytmZtGGpNWm6Srk=",
-		"config/skills.js": "1zRPZw0ApUIcLE8uoTHUO8/DktcmjkNJfKhbMLkhxR0=",
+		"config/skills.js": "SKXS1io1b0M8TsofS3nPmTRdjKfUQqnYFfasu85jft0=",
+		"config/skills_97.js": "1zRPZw0ApUIcLE8uoTHUO8/DktcmjkNJfKhbMLkhxR0=",
 		"lib/abnormalities.js": "wLPcuOrA1ThTuOwu1hzELuv7Kri1/i2Ka+gckY7TEt8=",
 		"lib/commands.js": "ycSSl8PhSGMY4/k0gXAsuDSoKXZ3cmmbPVBwHbLC6RE=",
 		"lib/cooldowns.js": "0NBVvWqKRdTf4Q4cfngC45osjqsB0RHQh3aNWHp8Xy0=",
-		"lib/core.js": "TaaX2R/LHVnQRf6CTsDlzHNhbc+BS5z6eXy9eU4Qsuk=",
+		"lib/core.js": "KjWYnrqXX1LJZUII6EdOuX0VQJxPD9BQZOdVgQYJqV8=",
 		"lib/debug.js": "hpB/TneaJGNT9dR1aD0rNeKAYcroMbOAzGYkbtqmZbs=",
 		"lib/index.js": "HXCSz9opRU53Yb7TSlxQBm0scCuIwDo7o1YLfGEVINY=",
 		"lib/party.js": "+d+p5aFp2IwbBJnr4QM9UsRxVyyjyuU62WpgyoBOGCY=",
@@ -23,5 +24,5 @@
 		"README.md": "/dCVfy/RNNOX/TWoy3wCmTwdvcblBRV5bhRdvip2eRE="
 	},
 	"publicKey": "MCowBQYDK2VwAyEAY31fpV8rIvZ3zGJE6nqoLXcI27/C3xmjDWV7PDavK4w=",
-	"signature": "30xAwg+LJYYZJ1ljhmwViqAi+boepv0Ch+M7XdTsY+OPtlI/z2V2j27v9iavw8aGQ6h+Csorlan0qhh9u0wkDw=="
+	"signature": "2xiotx7CkHbso/Ai5kje/tekxi6cB6aAxrgk1z3/FUX5pZtLc/4O8nGYBi3/30A7fcMok8sOh6F3i+od/jhuCw=="
 }
