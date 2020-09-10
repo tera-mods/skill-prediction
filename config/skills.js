@@ -3067,12 +3067,19 @@ module.exports = {
 					92024: 30,
 					92026: 30,
 					92040: 30
+				},
+				level: {
+					10: { ignoreAttackSpeed: true }
 				}
 			},
 			1: true,
 			2: true,
 			3: true,
-			30: true,
+			30: {
+				level: {
+					10: { ignoreAttackSpeed: true }
+				}
+			},
 			31: true,
 			32: true
 		},
@@ -3143,7 +3150,11 @@ module.exports = {
 			'*': { hasChains: true },
 			1: { categoryChains: { 800: 30 } },
 			2: { categoryChains: { 800: 30 } },
-			30: true,
+			30: {
+				level: {
+					6: { ignoreAttackSpeed: true }
+				}
+			},
 			31: true,
 			41: { categoryChains: { 800: 46 } },
 			42: { categoryChains: { 800: 46 } },
